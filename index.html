@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Mathrushri Old Age Home - Providing compassionate care for senior citizens in Bangalore since 2018"
+    />
+    <title>Mathrushri Old Age Home - Serving with Love Since 2018</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo" onclick="scrollToSection('hero')">
+          <div class="logo-square">
+            <img width="75" style="border-radius: 50%;" src="images/logo.png">
+          </div>
+          <div class="logo-text">
+            <span class="logo-title">Mathrushri Old Age Home</span>
+            <span class="logo-subtitle">Established 2018</span>
+          </div>
+        </div>
+
+        <div class="nav-menu" id="navMenu">
+          <button class="nav-link" onclick="scrollToSection('hero')">
+            Home
+          </button>
+          <button class="nav-link" onclick="scrollToSection('about')">
+            About
+          </button>
+          <button class="nav-link" onclick="scrollToSection('services')">
+            Facilities
+          </button>
+          <button class="nav-link" onclick="scrollToSection('gallery')">
+            Gallery
+          </button>
+          <button class="nav-link" onclick="scrollToSection('contact')">
+            Contact
+          </button>
+          <button class="btn btn-primary" onclick="scrollToSection('contact')">
+            Donate Now
+          </button>
+        </div>
+
+        <button
+          class="mobile-menu-btn"
+          id="mobileMenuBtn"
+          onclick="toggleMobileMenu()"
+        >
+          <i class="fas fa-bars" id="menuIcon"></i>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-link" onclick="scrollToSection('hero')">
+          Home
+        </button>
+        <button class="mobile-link" onclick="scrollToSection('about')">
+          About
+        </button>
+        <button class="mobile-link" onclick="scrollToSection('services')">
+          Facilities
+        </button>
+        <button class="mobile-link" onclick="scrollToSection('gallery')">
+          Gallery
+        </button>
+        <button class="mobile-link" onclick="scrollToSection('contact')">
+          Contact
+        </button>
+        <button
+          class="btn btn-primary mobile-donate"
+          onclick="scrollToSection('contact')"
+        >
+          Donate Now
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-badge">
+              <i class="fas fa-heart"></i>
+              <span>Serving with Love Since 2018</span>
+            </div>
+
+            <h1 class="hero-title">
+              A Home Where
+              <span class="gradient-text">Elders Find Peace</span>
+            </h1>
+
+            <p class="hero-description">
+              Providing compassionate care, dignity, and a loving environment
+              for senior citizens in Bangalore. Every elder deserves respect,
+              comfort, and happiness.
+            </p>
+
+            <div class="hero-buttons">
+              <button
+                class="btn btn-primary btn-lg"
+                onclick="scrollToSection('contact')"
+              >
+                Get In Touch
+              </button>
+              <button
+                class="btn btn-outline btn-lg"
+                onclick="scrollToSection('about')"
+              >
+                Learn More
+              </button>
+            </div>
+
+            <div class="hero-contact">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <p class="contact-label">Call Us Anytime</p>
+                <p class="contact-number">+91 98765 43210</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-image-wrapper">
+            <div class="hero-image">
+              <img
+                src="images/image (3).jpg"
+                alt="Elderly Care"
+              />
+              <div class="image-overlay"></div>
+            </div>
+
+            <div class="stats-card">
+              <div class="stat-item">
+                <p class="stat-number">7+</p>
+                <p class="stat-label">Years Serving</p>
+              </div>
+              <div class="stat-item stat-divider">
+                <p class="stat-number">50+</p>
+                <p class="stat-label">Residents</p>
+              </div>
+              <div class="stat-item">
+                <p class="stat-number">24/7</p>
+                <p class="stat-label">Care Available</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">
+            <i class="fas fa-heart"></i>
+            <span>About Us</span>
+          </div>
+          <h2 class="section-title">
+            Caring for Your Loved Ones
+            <span class="gradient-text">With Dignity & Love</span>
+          </h2>
+          <p class="section-description">
+            Since 2018, Mathrushri Old Age Home has been a sanctuary for senior
+            citizens in Bangalore. We provide a nurturing environment where
+            elders live with dignity, joy, and the care they deserve.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-image-wrapper">
+            <img
+              src="images/image (2).jpg"
+              alt="Happy Elderly"
+            />
+            <div class="years-badge">
+              <p class="years-number">7+ Years</p>
+              <p class="years-text">Of dedicated service to senior citizens</p>
+            </div>
+          </div>
+
+          <div class="about-content">
+            <h3 class="content-title">Our Mission & Vision</h3>
+            <p class="content-text">
+              We believe that every senior citizen deserves a life filled with
+              respect, comfort, and happiness. Our mission is to provide a home
+              away from home where elders can enjoy their golden years in peace.
+            </p>
+            <p class="content-text">
+              Located conveniently near Vijayanagara Metro Station in Bangalore,
+              our facility offers easy accessibility for families while
+              providing a serene environment for our residents.
+            </p>
+            <div class="quote-box">
+              <p class="quote-text">
+                "We don't just provide care; we create a family where every
+                elder feels valued, heard, and loved."
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="values-grid">
+          <div class="value-card">
+            <div class="value-icon">
+              <i class="fas fa-heart"></i>
+            </div>
+            <h4 class="value-title">Compassionate Care</h4>
+            <p class="value-description">
+              Every resident receives personalized attention with love and
+              respect
+            </p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h4 class="value-title">Community Living</h4>
+            <p class="value-description">
+              A warm, inclusive environment where friendships flourish
+            </p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">
+              <i class="fas fa-award"></i>
+            </div>
+            <h4 class="value-title">Quality Service</h4>
+            <p class="value-description">
+              Experienced staff dedicated to providing excellent care
+            </p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h4 class="value-title">Safe Environment</h4>
+            <p class="value-description">
+              Secure, comfortable, and well-maintained facilities
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge badge-green">
+            <i class="fas fa-heartbeat"></i>
+            <span>Our Facilities</span>
+          </div>
+          <h2 class="section-title">
+            Comprehensive Care &
+            <span class="gradient-text">Support Services</span>
+          </h2>
+          <p class="section-description">
+            We provide a complete range of services to ensure the well-being,
+            comfort, and happiness of our residents.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon icon-red">
+              <i class="fas fa-stethoscope"></i>
+            </div>
+            <h3 class="service-title">Medical Care</h3>
+            <p class="service-description">
+              24/7 medical support with regular health checkups and medication
+              management
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon icon-green">
+              <i class="fas fa-utensils"></i>
+            </div>
+            <h3 class="service-title">Nutritious Meals</h3>
+            <p class="service-description">
+              Healthy, balanced meals prepared fresh daily with dietary
+              considerations
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon icon-blue">
+              <i class="fas fa-running"></i>
+            </div>
+            <h3 class="service-title">Daily Activities</h3>
+            <p class="service-description">
+              Yoga, exercises, games, and cultural programs to keep residents
+              active
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon icon-purple">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3 class="service-title">Social Engagement</h3>
+            <p class="service-description">
+              Community events, celebrations, and activities to foster
+              friendships
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon icon-pink">
+              <i class="fas fa-hand-holding-heart"></i>
+            </div>
+            <h3 class="service-title">Personal Care</h3>
+            <p class="service-description">
+              Assistance with daily living activities and personal hygiene
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon icon-yellow">
+              <i class="fas fa-sun"></i>
+            </div>
+            <h3 class="service-title">Recreational Areas</h3>
+            <p class="service-description">
+              Comfortable common areas, gardens, and spaces for relaxation
+            </p>
+          </div>
+        </div>
+
+        <div class="cta-banner">
+          <h3 class="cta-title">Round-the-Clock Care & Support</h3>
+          <p class="cta-description">
+            Our trained staff is available 24/7 to ensure the safety, comfort,
+            and well-being of all residents. We're committed to providing the
+            highest quality of care.
+          </p>
+          <div class="cta-stats">
+            <div class="cta-stat">
+              <p class="cta-stat-number">24/7</p>
+              <p class="cta-stat-label">Medical Support</p>
+            </div>
+            <div class="cta-stat">
+              <p class="cta-stat-number">3x</p>
+              <p class="cta-stat-label">Daily Meals</p>
+            </div>
+            <div class="cta-stat">
+              <p class="cta-stat-number">100%</p>
+              <p class="cta-stat-label">Safety & Care</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">
+            <i class="fas fa-images"></i>
+            <span>Gallery</span>
+          </div>
+          <h2 class="section-title">
+            Life at
+            <span class="gradient-text">Mathrushri Old Age Home</span>
+          </h2>
+          <p class="section-description">
+            A glimpse into the joyful moments and daily activities of our
+            residents.
+          </p>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+          <div class="gallery-item" onclick="openGalleryModal(0)">
+            <img src="images/image (1).jpg" alt="Community Care" />
+            <div class="gallery-overlay">
+              <div class="gallery-text">
+                <h3>Community Care</h3>
+                <p>Outdoor activities and fresh air</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" onclick="openGalleryModal(1)">
+            <img src="images/image (2).jpg" alt="Social Activities" />
+            <div class="gallery-overlay">
+              <div class="gallery-text">
+                <h3>Social Activities</h3>
+                <p>Board games and leisure time</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" onclick="openGalleryModal(2)">
+            <img src="images/image (3).jpg" alt="Mental Wellness" />
+            <div class="gallery-overlay">
+              <div class="gallery-text">
+                <h3>Mental Wellness</h3>
+                <p>Chess and cognitive activities</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" onclick="openGalleryModal(3)">
+            <img src="images/image (4).jpg" alt="Physical Fitness" />
+            <div class="gallery-overlay">
+              <div class="gallery-text">
+                <h3>Physical Fitness</h3>
+                <p>Daily exercise routines</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" onclick="openGalleryModal(4)">
+            <img src="images/image (5).jpg" alt="Peaceful Living" />
+            <div class="gallery-overlay">
+              <div class="gallery-text">
+                <h3>Peaceful Living</h3>
+                <p>Comfortable and serene environment</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" onclick="openGalleryModal(5)">
+            <img src="images/image (6).jpg" alt="Daily Care" />
+            <div class="gallery-overlay">
+              <div class="gallery-text">
+                <h3>Daily Care</h3>
+                <p>Compassionate support services</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Modal -->
+    <div id="galleryModal" class="modal" onclick="closeGalleryModal()">
+      <button class="modal-close" onclick="closeGalleryModal()">&times;</button>
+      <div class="modal-content" onclick="event.stopPropagation()">
+        <img id="modalImage" src="" alt="" />
+        <div class="modal-text">
+          <h3 id="modalTitle"></h3>
+          <p id="modalDescription"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge badge-green">
+            <i class="fas fa-phone"></i>
+            <span>Get In Touch</span>
+          </div>
+          <h2 class="section-title">
+            Visit Us or
+            <span class="gradient-text">Reach Out Today</span>
+          </h2>
+          <p class="section-description">
+            We welcome families to visit our facility and see our caring
+            environment. Contact us for admission inquiries or to schedule a
+            tour.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="info-card">
+              <div class="info-icon icon-red">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h3 class="info-title">Location</h3>
+                <p class="info-text">Near Metro Station</p>
+                <p class="info-text">Vijayanagara, Bangalore</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-icon icon-green">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <h3 class="info-title">Phone</h3>
+                <p class="info-text">+91 98765 43210</p>
+              </div>
+            </div>
+            <div class="info-card">
+              <div class="info-icon icon-blue">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div>
+                <h3 class="info-title">Visiting Hours</h3>
+                <p class="info-text">Mon - Sun: 9:00 AM - 6:00 PM</p>
+                <p class="info-text">Emergency: 24/7</p>
+              </div>
+            </div>
+          </div>
+
+                      <div class="donation-card">
+              <h3 class="donation-title">Support Our Mission</h3>
+              <p class="donation-description">
+                Your generous donations help us provide quality care and improve
+                the lives of our elderly residents.
+              </p>
+              <button class="btn btn-white btn-lg">Donate Now</button>
+            </div>
+            <!--
+          <div class="contact-form-wrapper">
+            <h3 class="form-title">Send Us a Message</h3>
+            <form id="contactForm" class="contact-form">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="Enter your phone number"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="How can we help you?"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg btn-full">
+                <i class="fas fa-paper-plane"></i>
+                Send Message
+              </button>
+            </form>
+          </div>
+        -->
+        </div>
+
+        <div class="map-wrapper">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7746!2d77.542!3d12.969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU4JzA4LjQiTiA3N8KwMzInMzEuMiJF!5e0!3m2!1sen!2sin!4v1234567890"
+            width="100%"
+            height="100%"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            title="Mathrushri Old Age Home Location"
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-about">
+            <div class="footer-logo">
+              <div class="logo-square">
+                <img width="60" style="border-radius: 50%;" src="images/logo.png">
+              </div>
+              <div>
+                <h3 class="footer-brand">Mathrushri Old Age Home</h3>
+                <p class="footer-subtitle">Established 2018</p>
+              </div>
+            </div>
+            <p class="footer-text">
+              Providing compassionate care and a loving home for senior citizens
+              since 2018.
+            </p>
+          </div>
+
+          <div class="footer-links">
+            <h4 class="footer-heading">Quick Links</h4>
+            <ul class="footer-list">
+              <li>
+                <button onclick="scrollToSection('about')">About Us</button>
+              </li>
+              <li>
+                <button onclick="scrollToSection('services')">
+                  Our Facilities
+                </button>
+              </li>
+              <li>
+                <button onclick="scrollToSection('gallery')">Gallery</button>
+              </li>
+              <li>
+                <button onclick="scrollToSection('contact')">Contact</button>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-contact">
+            <h4 class="footer-heading">Contact Info</h4>
+            <ul class="footer-list">
+              <li>Near Metro Station<br />Vijayanagara, Bangalore</li>
+              <li>+91 98765 43210</li>
+              <li>24/7 Care Available</li>
+            </ul>
+          </div>
+
+          <div class="footer-social">
+            <h4 class="footer-heading">Connect With Us</h4>
+            <p class="footer-text">
+              Follow us on social media for updates and stories from our
+              community.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-envelope"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">
+            Made with <i class="fas fa-heart"></i> © 2025 Mathrushri Old Age
+            Home. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
