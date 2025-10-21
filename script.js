@@ -1,7 +1,7 @@
 
 const galleryImages = [
     {
-        src: 'https://images.unsplash.com/photo-1618417606098-ce7a5493be5a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NjZ8MHwxfHNlYXJjaHwxfHxzZW5pb3IlMjBjaXRpemVucyUyMGFjdGl2aXRpZXN8ZW58MHx8fHwxNzYwNjMzNTYyfDA&ixlib=rb-4.1.0&q=85',
+        src: 'images/image (1).jpg',
         title: 'Community Care',
         description: 'Outdoor activities and fresh air',
     },
@@ -147,4 +147,5 @@ document.addEventListener('DOMContentLoaded', function() {
         element.style.transition = 'opacity 0.2s ease, transform 0.6s ease';
         observer.observe(element);
     });
+
 });
