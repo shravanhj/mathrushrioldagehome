@@ -6,27 +6,27 @@ const galleryImages = [
         description: 'Outdoor activities and fresh air',
     },
     {
-        src: 'https://images.unsplash.com/photo-1659434567031-a98e1187a9e3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NjZ8MHwxfHNlYXJjaHwzfHxzZW5pb3IlMjBjaXRpemVucyUyMGFjdGl2aXRpZXN8ZW58MHx8fHwxNzYwNjMzNTYyfDA&ixlib=rb-4.1.0&q=85',
+        src: 'images/image (2).jpg',
         title: 'Social Activities',
         description: 'Board games and leisure time',
     },
     {
-        src: 'https://images.unsplash.com/photo-1513159446162-54eb8bdaa79b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NjZ8MHwxfHNlYXJjaHw0fHxzZW5pb3IlMjBjaXRpemVucyUyMGFjdGl2aXRpZXN8ZW58MHx8fHwxNzYwNjMzNTYyfDA&ixlib=rb-4.1.0&q=85',
+        src: 'images/image (3).jpg',
         title: 'Mental Wellness',
         description: 'Chess and cognitive activities',
     },
     {
-        src: 'https://images.pexels.com/photos/8939962/pexels-photo-8939962.jpeg',
+        src: 'images/image (4).jpg',
         title: 'Physical Fitness',
         description: 'Daily exercise routines',
     },
     {
-        src: 'https://images.unsplash.com/photo-1632110287190-7b6807b7ad2e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHw0fHxlbGRlcmx5JTIwY2FyZSUyMEluZGlhfGVufDB8fHx8MTc2MDYzMzU1Nnww&ixlib=rb-4.1.0&q=85',
+        src: 'images/image (5).jpg',
         title: 'Peaceful Living',
         description: 'Comfortable and serene environment',
     },
     {
-        src: 'https://images.pexels.com/photos/14260022/pexels-photo-14260022.jpeg',
+        src: 'images/image (6).jpg',
         title: 'Daily Care',
         description: 'Compassionate support services',
     },
@@ -149,3 +149,4 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 });
+
